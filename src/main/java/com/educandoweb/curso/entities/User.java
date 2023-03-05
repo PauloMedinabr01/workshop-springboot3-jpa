@@ -1,7 +1,6 @@
 package com.educandoweb.curso.entities;
 
 import java.io.Serializable;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -18,7 +17,6 @@ public class User implements Serializable {
     private Long id;
     private String name;
     private String email;
-
     private String phone;
     private String password;
 
