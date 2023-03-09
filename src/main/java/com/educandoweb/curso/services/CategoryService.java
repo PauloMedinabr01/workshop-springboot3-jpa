@@ -8,7 +8,6 @@ import com.educandoweb.curso.repositories.CategoryRepository;
 import java.util.Optional;
 
 @Service // registra classe como componente do spring e pode ser injetado automaticamente
-         // @Autowired
 public class CategoryService {
 
     @Autowired
